@@ -46,6 +46,6 @@ If your contribution is a **complete, narrative-driven showcase** with data gene
 
 | Client | Protocol / Source | Language | Description |
 |--------|-------------------|----------|-------------|
+| `salesforce_zerobus` | Salesforce Pub/Sub API | Python, GO | Subscribes to Salesforce Change Data Capture events and forwards to Zerobus |
 | `mqtt_client` | MQTT | TBD | Bridges MQTT broker messages to Zerobus Ingest |
-| `salesforce_client` | Salesforce Pub/Sub API | TBD | Subscribes to Salesforce Change Data Capture events and forwards to Zerobus |
 | `opcua_client` | OPC-UA | TBD | Connects to OPC-UA servers (industrial IoT) and streams telemetry to Zerobus |

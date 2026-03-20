@@ -17,7 +17,8 @@ In this repo, you will find examples and demos of Zerobus Ingest, a push-based A
 * [Data Drifter Regatta](./demos/data_drifter/) - Real-time sailboat race tracking with marine telemetry (SDK/gRPC + REST API)
 
 ## Example Clients
-*Coming soon* - MQTT, Salesforce, OPC-UA, and more.
+* [Salesforce Zerobus](./example_clients/salesforce_zerobus/) - Stream Salesforce CDC events to Delta tables via the Pub/Sub API (Python & Go)
+*Coming soon* - MQTT, OPC-UA, and more.
 
 
 ## How to get help
