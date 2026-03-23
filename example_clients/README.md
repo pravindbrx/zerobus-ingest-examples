@@ -47,7 +47,7 @@ If your contribution is a **complete, narrative-driven showcase** with data gene
 | Client | Protocol / Source | Language | Description |
 |--------|-------------------|----------|-------------|
 | `salesforce_zerobus` | Salesforce Pub/Sub API | Python, Go | Subscribes to Salesforce Change Data Capture events and forwards to Zerobus |
-| `github_zerobus_sdp_ocsf` | GitHub Events API → Zerobus → SDP | Python | Medallion SDP pipeline; normalizes to OCSF gold tables |
+| `github_zerobus_sdp_ocsf` | GitHub Events API | Spark - Python, SQL | Zerobus + SDP integration and Cyber Lakehouse OCSF Medallion Architecture |
 
 ## Planned Clients
 
