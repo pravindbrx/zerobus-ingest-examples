@@ -5,6 +5,7 @@ Welcome to the world of streamlined ingestion!
 In this repo, you will find examples and demos of Zerobus Ingest, a push-based API that streamlines streaming ingestion into the Lakehouse.
 
 * Learn more [here](https://docs.databricks.com/aws/en/ingestion/zerobus-overview)
+* This repository is not for Zerobus Ingest SDKs, view the SDKs [here](https://github.com/databricks/zerobus-sdk)
 
 ## Repository Structure
 
