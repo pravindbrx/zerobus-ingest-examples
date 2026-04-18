@@ -1,3 +1,5 @@
+# Example configuration: every <...> token must be replaced (workspace URL, Zerobus ingest host, credentials).
+# Unresolved placeholders will fail at runtime — see README and opcua_zerobus/.env.example for the same naming.
 connector:
   name: Unified OT Zerobus Connector Client
   log_level: INFO
@@ -17,7 +19,7 @@ web_ui:
       provider: databricks
       client_id: ''
       client_secret: ''
-      workspace_host: https://e2-demo-field-eng.cloud.databricks.com
+      workspace_host: https://<workspace>.cloud.databricks.com
       redirect_uri: http://localhost:8082/login/callback
       scopes:
       - all-apis
@@ -174,10 +176,10 @@ normalization:
       - 4
 zerobus:
   enabled: true
-  workspace_host: https://e2-demo-field-eng.cloud.databricks.com
-  zerobus_endpoint: 1444828305810485.zerobus.us-west-2.cloud.databricks.com
+  workspace_host: https://<workspace>.cloud.databricks.com
+  zerobus_endpoint: <workspace-id>.zerobus.<region>.cloud.databricks.com
   default_target:
-    workspace_host: https://e2-demo-field-eng.cloud.databricks.com
+    workspace_host: https://<workspace>.cloud.databricks.com
     catalog: opcua
     schema: scada_data
     table: opcua_events_bronze
